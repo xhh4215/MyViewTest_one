@@ -5,12 +5,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
      <!--由于myview是一个单独的view所以width和height的设置没有受到影响-->
     <com.example.xiaoheihei.MyView
-        android:layout_width="200dp"
+        android:layout_width="100dp"
         android:layout_height="100dp"
         android:textSize="20sp"
         android:text="按钮"
         app:textSize="25sp"
-        app:textColor="@color/colorAccent"
+        app:textColor="#ff000000"
         app:mytext="this is xiaohei"
         android:background="#ff0000"/>
     </LinearLayout>
